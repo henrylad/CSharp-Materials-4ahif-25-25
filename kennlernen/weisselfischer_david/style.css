@@ -1,0 +1,70 @@
+#spinningImage{
+    background-color: aqua;
+}
+
+/* Background states for hover triggers */
+body{
+   transition: background 400ms ease, background-image 400ms ease;
+   background: #fff;
+}
+body.bg-beer{
+   /* If you place a file named `beer.jpg` (or .png) in the project root, it will be used as background.
+      The gradient after it acts as a tasteful fallback/overlay. */
+   background-image: url('bier.png'), radial-gradient(circle at 20% 20%, rgba(255,230,170,0.45), transparent 25%),
+                     linear-gradient(180deg,#f5e0a8cc,#f1c77bcc);
+   background-size: cover, auto, auto;
+   background-position: center, 20% 20%, center;
+   background-repeat: no-repeat, no-repeat, no-repeat;
+   background-blend-mode: normal, overlay, normal;
+}
+body.bg-schnitzel{
+   /* If you place a file named `schnitzel.jpg` (or .png) in the project root, it will be used as background.
+      The gradient after it acts as a tasteful fallback/overlay. */
+   background-image: url('schnitzel.png'), linear-gradient(180deg,#ffeeda,#f6e3c9),
+                     radial-gradient(circle at 80% 80%, rgba(255,200,160,0.45), transparent 25%);
+   background-size: cover, auto, auto;
+   background-position: center, center, 80% 80%;
+   background-repeat: no-repeat, no-repeat, no-repeat;
+   background-blend-mode: normal, overlay, normal;
+}
+
+.hover-trigger{
+   cursor: pointer;
+   text-decoration: underline dotted;
+   outline: none;
+}
+.hover-trigger:focus{
+   box-shadow: 0 0 0 4px rgba(100,150,255,0.18);
+   border-radius: 4px;
+}
+
+/* Visible YouTube container (shown on hover) */
+/* Fullscreen YouTube container */
+#yt-silent-container{
+   position: fixed;
+   inset: 0; /* fill viewport */
+   z-index: 9998;
+   display: none; /* toggled by JS */
+   background: #000;
+}
+
+#yt-silent-container iframe{
+   width: 100vw;
+   height: 100vh;
+   display: block;
+   border: 0;
+}
+
+/* Unmute button top-right when fullscreen */
+#yt-unmute{
+   display: none; /* shown by JS */
+   position: fixed;
+   right: 12px;
+   top: 12px;
+   z-index: 9999;
+   padding: 8px 12px;
+   border-radius: 6px;
+   border: none;
+   background: rgba(0,0,0,0.8);
+   color: #fff;
+}
