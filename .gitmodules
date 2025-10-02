@@ -1,3 +1,6 @@
 [submodule "001_global_race"]
 	path = 001_global_race
 	url = https://github.com/2526-4ahif-pose/ex-intro-01-global-race-henrylad
+[submodule "003-movie-minimal-api"]
+	path = 003-movie-minimal-api
+	url = git@github.com:2526-4ahif-pose/ex-mapi-02-movies-henrylad.git
