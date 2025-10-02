@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using PoolGuard.Core;
+using PoolGuard.Core.Tickets;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,21 +20,9 @@ if(builder.Environment.IsDevelopment())
 
 app.UseCors(Setup.CorsPolicyName);
 
-app.MapGet("/hello/{name}", ([FromRoute] string? name,[FromServices] IClock clock) =>
-   {
-       if (string.IsNullOrWhiteSpace(name))
-       {
-           return Results.BadRequest();
-       }
 
-       var now = clock.GetCurrentInstant();
 
-       return Results.Ok(new Greeting(name, now));
-   })
-   .Produces<Greeting>(StatusCodes.Status200OK)
-   .Produces(StatusCodes.Status400BadRequest)
-   .WithName("Greetings")
-   .WithOpenApi();
+app.MapTicketEndpoints();
 
 await app.RunAsync();
 

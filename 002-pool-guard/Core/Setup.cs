@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 using NodaTime.Serialization.SystemTextJson;
+using PoolGuard.Core.Tickets;
 
 namespace PoolGuard.Core;
 
@@ -11,8 +12,9 @@ public static class Setup
     public static void RegisterServices(this IServiceCollection services)
     {
         services.AddSingleton<IClock>(SystemClock.Instance);
-
-        
+        services.AddTransient<ITicketGenerator, TicketGenerator>();
+        services.AddSingleton<IDataStorage, DataStorage>();
+        services.AddScoped<ITicketService, TicketService>(); 
     }
 
     public static void ConfigureServices(this IServiceCollection services, bool isDevelopment)

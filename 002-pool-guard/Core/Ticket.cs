@@ -10,7 +10,9 @@ public sealed class Ticket
     public Instant ValidTo { get; init; }
     public required string PersonName { get; init; }
 
-    public bool IsInPoolArea => _accessEvents[^1].Type is AccessTypeEvent.Enter;
+    public required double Price  { get; init; }
+
+    public bool IsInPoolArea => _accessEvents.Count > 0 && _accessEvents[^1].Type is AccessTypeEvent.Enter;
 
     public bool AddAccessEvent(AccessTypeEvent type, Instant timestamp)
     {

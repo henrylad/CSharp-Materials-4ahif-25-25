@@ -8,7 +8,7 @@
 
 = Pool Guard -- Workshop
 
-> As we embark on the journey of implementing an access control system for a public outdoor pool, we are not merely creating a process for ticket validation and management—we are enhancing the experience of every visitor and ensuring the safety and enjoyment of our community. This assignment offers a unique opportunity to design a system that will transform the way we manage and monitor access to a beloved public facility, turning a simple pool visit into a well-organized and secure event. With our innovative approach, we aim to streamline operations, prevent unauthorized access, and create a welcoming environment where each visitor feels valued and assured of their safety.
+ > As we embark on the journey of implementing an access control system for a public outdoor pool, we are not merely creating a process for ticket validation and management—we are enhancing the experience of every visitor and ensuring the safety and enjoyment of our community. This assignment offers a unique opportunity to design a system that will transform the way we manage and monitor access to a beloved public facility, turning a simple pool visit into a well-organized and secure event. With our innovative approach, we aim to streamline operations, prevent unauthorized access, and create a welcoming environment where each visitor feels valued and assured of their safety.
 
 As an introductory project for creating proper WebApis we start with leveraging the skills you gained last year in WMC by creating a simple (minimal) REST API.
 This system will manage the tickets and access to the glorious outdoor pool of HTL Leonding.
@@ -53,7 +53,7 @@ In ASP.NET Core there are two major, official ways for creating Web APIs:
 
 NOTE: An AOT compiled application will start very fast and consume a little less memory, while a 'regular' JIT-based application starts slower, consumes a bit more memory, but also has a higher throughput, because the JIT can dynamically optimize actual _hot paths_, something a static AOT compiler can't do. That makes AOT applications especially useful for serverless functions in the cloud where a small microservice is started and  stopped for every function and every request. On the other hand, a JIT-based application is better suited for larger, long-running services, where the startup time is not that important. Always pick the right tool for the job!
 
-During the year -- once we add authentication & authorization, model validation, databases, many endpoints,... -- we will get to 'full', controller based applications, but for now we will stick with the minimal API approach.
+During the year -- once we add authentication & authorization, model validation, 3bases, many endpoints,... -- we will get to 'full', controller based applications, but for now we will stick with the minimal API approach.
 
 The goal is that you are able to quickly create a simple Web API against which we can work when doing frontend development.
 Most of the complicated things we will ignore for the moment and leave for later.

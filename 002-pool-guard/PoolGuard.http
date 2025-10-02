@@ -1,7 +1,32 @@
 @BaseUrl = http://localhost:5200
+@Tickets = {{BaseUrl}}/api/tickets
+@ticketId = 0
 
-### Greeting 
-GET {{BaseUrl}}/hello/Schwammal
+### Create Ticket
+# @name ticketCreation
+POST {{Tickets}}
+Content-Type: application/json
+
+{
+  "name": "Gigachad",
+  "validFrom": "2024-06-10T10:00:00Z",
+  "validTo": "2024-06-12T12:20:00Z"
+}
+
+###
+@ticketId = {{ticketCreation.response.body.id}}
+
+### Get Ticket
+GET {{Tickets}}/{{ticketId}}
+
+### Enter Pool Area
+POST {{Tickets}}/{{ticketId}}/entries
+
+### Statistics
+GET {{Tickets}}/statistics
+
+### Exit Pool Area
+POST {{Tickets}}/{{ticketId}}/exits
 
 ### OpenAPI
 GET {{BaseUrl}}/openapi/v1.json
