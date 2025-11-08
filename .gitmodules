@@ -4,3 +4,6 @@
 [submodule "003-movie-minimal-api"]
 	path = 003-movie-minimal-api
 	url = git@github.com:2526-4ahif-pose/ex-mapi-02-movies-henrylad.git
+[submodule "005-tictactoe"]
+	path = 005-tictactoe
+	url = git@github.com:2526-4ahif-pose/ex-ang-01-tictactoe-henrylad.git

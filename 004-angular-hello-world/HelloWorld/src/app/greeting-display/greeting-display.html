@@ -1,0 +1,8 @@
+<mat-card appearance="outlined">
+  <mat-card-header (click)="handleClick('title')">
+    <mat-card-title>Hello {{name()}} </mat-card-title>
+  </mat-card-header>
+  <mat-card-content (click)="handleClick('content')">
+    <p>We welcome you at {{timestamp}}</p>
+  </mat-card-content>
+</mat-card>

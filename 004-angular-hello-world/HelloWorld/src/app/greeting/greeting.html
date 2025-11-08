@@ -1,3 +1,11 @@
-<p> Hello {{ names[currentNameIdx] }}</p>
-
-<button (click)="greet()">Change Name</button>
+<div>
+  <button matButton="elevated" (click)="greet()" class="greet-btn">Greet</button>
+  <app-greeting-instructions #instructions
+    [notStared]="greetedPeople().length === 0"/>
+  @for (person of greetedPeople(); track $index){
+    <app-greeting-display [name]="person"
+                          (onClicked)="handelDisplayClicked($event)"/>
+  } @empty {
+    <span>No one has been greted yet!</span>
+  }
+</div>

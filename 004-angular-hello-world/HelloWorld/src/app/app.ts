@@ -2,13 +2,15 @@ import { Component, signal, WritableSignal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MatButton } from '@angular/material/button'
 import { Greeting } from "./greeting/greeting";
+import {GreetingInstructions} from './greeting-instructions/greeting-instructions';
 
 @Component({
   selector: 'app-root',
   imports: [
     MatButton,
-    Greeting
-],
+    Greeting,
+    GreetingInstructions
+  ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

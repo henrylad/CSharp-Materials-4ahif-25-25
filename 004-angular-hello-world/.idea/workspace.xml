@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5857019a-1856-4761-95e2-eb4dcc5410d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../001_global_race" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace.Test/GlobalRace.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace.Test/GlobalRace.Test.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace.Test/GlobalRaceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace.Test/GlobalRaceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/Data/participants.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/Data/participants.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/Data/status.data" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/Data/status.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/DataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/DataProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/GlobalRace.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/GlobalRace.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/GlobalUsings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/Model.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/Model.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../001_global_race/GlobalRace/StateParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../001_global_race/GlobalRace/StateParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-movie-minimal-api" beforeDir="false" afterPath="$PROJECT_DIR$/../003-movie-minimal-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-movie-minimal-api/Movies.DataImport/MoviesImporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../003-movie-minimal-api/Movies.DataImport/MoviesImporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-movie-minimal-api/Movies.Shared/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../003-movie-minimal-api/Movies.Shared/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-movie-minimal-api/Movies.Shared/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../003-movie-minimal-api/Movies.Shared/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-movie-minimal-api/Movies/Core/Movies/MovieDataStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../003-movie-minimal-api/Movies/Core/Movies/MovieDataStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-movie-minimal-api/Movies/Core/Movies/MovieEndpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../003-movie-minimal-api/Movies/Core/Movies/MovieEndpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-movie-minimal-api/Movies/Core/Movies/MovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../003-movie-minimal-api/Movies/Core/Movies/MovieService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/src/app/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/src/app/greeting/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/src/app/greeting/greeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/src/app/greeting/greeting.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/src/app/greeting/greeting.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/src/app/greeting/greeting.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/src/app/greeting/greeting.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="356dyhfJ0Aemc67L2zuBzJWtFsf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/henry/school/4ahif/pose/005-tictactoe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/henry/school/4ahif/pose/004-angular-hello-world/HelloWorld/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5857019a-1856-4761-95e2-eb4dcc5410d7" name="Changes" comment="" />
+      <created>1762434712628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762434712628</updated>
+      <workItem from="1762434714370" duration="5982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

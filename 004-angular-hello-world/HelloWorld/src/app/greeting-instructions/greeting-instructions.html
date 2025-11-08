@@ -1,0 +1,11 @@
+<div class="container"
+[class.red] ="currentColor() === Color.Red"
+[class.green]="currentColor() === Color.Green"
+[class.blue]="currentColor() === Color.Blue"
+[class.transparent]="currentColor() === Color.Transparent">
+  @if (notStared()) {
+    <span>Press the Button to get Started</span>
+  } @else {
+    <span>Greet! Keep going!</span>
+  }
+</div>
